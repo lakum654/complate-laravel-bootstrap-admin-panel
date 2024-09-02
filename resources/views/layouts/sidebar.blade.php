@@ -37,17 +37,6 @@
           </a>
         </li>
 
-        <li class="{{ Request::is('admin/questions') ? 'active' : '' }}">
-          <a href="{{ url('admin/questions') }}">
-            <i class="fa fa-cog"></i> <span>Questions</span>
-          </a>
-        </li>
-        <li class="{{ Request::is('admin/sitemap') ? 'active' : '' }}">
-          <a href="{{ url('admin/sitemap') }}">
-            <i class="fa fa-cog"></i> <span>Sitemaps</span>
-          </a>
-        </li>
-
       </ul>
     </section>
   </aside>
